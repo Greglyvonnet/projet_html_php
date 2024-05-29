@@ -200,9 +200,7 @@ video {
   border: 0;
   vertical-align: baseline;
 }
-img {
-  /* width:100%; */
-}
+
 body {
   /* font-family:Arial;
     background-image: url("../img/fond.png"); */
@@ -221,7 +219,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(114, 78, 180);
+  background-color: rgb(122, 118, 198);
   color: blue;
   height: 150px;
   align-items: center;
@@ -234,11 +232,14 @@ header {
 /*************** END HEADER ***************/
 
 /*************** NAV ***************/
-li a {
-  display: block;
+nav {
+  background-color: rgb(69, 159, 228);
 }
 
-/*************** END NAV ***************
+li {
+  display: inline;
+}
+/*************** END NAV ***********/
 
 /*************** MAIN ***************/
 

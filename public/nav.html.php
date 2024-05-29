@@ -1,18 +1,18 @@
 <nav>
     
-<!-- dans racine creer 12 dossiers et pour menu"lien_menu" -->
+<!-- dans racine 12 dossiers creer et pour menu&lien il faut mettre =lien_menu-->
 <ul>
-        <li><a href="Structure">Structure</a></li>
-        <li><a href="Texte">Texte</a></li>
-        <li><a href="Selecteur">Selecteur</a></li>
-        <li><a href="Image">Image</a></li>
-        <li><a href="Position">Position</a></li>
-        <li><a href="Zoning">Zoning</a></li>
-        <li><a href="Tableau">Tableau</a></li>
-        <li><a href="Liste">Liste</a></li>
-        <li><a href="Lien & menu">Lien & menu</a></li>
-        <li><a href="Formulaire">Formulaire</a></li>
-        <li><a href="Multimedia">Multimedia</a></li>
-        <li><a href="Animation">Animation</a></li>
+        <li><a href="structure.php">structure</a></li>
+        <li><a href="texte.php">texte</a></li>
+        <li><a href="selecteur.php">selecteur</a></li>
+        <li><a href="image.php">image</a></li>
+        <li><a href="position.php">position</a></li>
+        <li><a href="zoning.php">zoning</a></li>
+        <li><a href="tableau.php">tableau</a></li>
+        <li><a href="liste.php">liste</a></li>
+        <li><a href="lien_menu.php">lien & menu</a></li>
+        <li><a href="formulaire.php">formulaire</a></li>
+        <li><a href="multimedia.php">multimedia</a></li>
+        <li><a href="animation.php">animation</a></li>
     </ul>
 </nav>
