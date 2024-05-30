@@ -19,10 +19,13 @@
     <div id="logo">
         <img src= "public/assets/img/logo.png" alt="logo_html_css">
     </div>
-    
-    <h1>Mon premier sites HTML/CSS</h1>
     <div>
-        <i class="fa-brands fa-instagram fa-2xl"></i><br><br><i class="fa-brands fa-square-facebook fa-2xl"></i>
+        <h1>Mon premier sites HTML/CSS</h1>
+    </div>
+    <div id= "social">
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <br><br>
+        <i class="fa-brands fa-square-facebook fa-2xl"></i>
     </div>
 
     <!-- div 30% pour logo de gauche et de meme pour logos de droite + hauteur 150px-->

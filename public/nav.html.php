@@ -1,8 +1,8 @@
 <nav>
     
 <!-- dans racine 12 dossiers creer et pour menu&lien il faut mettre =lien_menu-->
-<ul>
-        <li><a href="structure.php">structure</a></li>
+<ul class= "list">
+        <li><a href="index.php">structure</a></li>
         <li><a href="texte.php">texte</a></li>
         <li><a href="selecteur.php">selecteur</a></li>
         <li><a href="image.php">image</a></li>

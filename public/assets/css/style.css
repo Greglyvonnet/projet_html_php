@@ -219,29 +219,57 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(122, 118, 198);
-  color: blue;
+  background-color: rgb(44, 62, 80);
+  color:rgb(41, 128, 185);
   height: 150px;
   align-items: center;
 }
 
 #logo {
-  font-size: 50px;
+  width: 30%;
+}
+
+#social {
+  width: 30%;
+  text-align: right;
 }
 
 /*************** END HEADER ***************/
 
 /*************** NAV ***************/
 nav {
-  background-color: rgb(69, 159, 228);
+  background-color: rgb(41, 128, 185);
+  border-bottom: 4px rgb(106, 202, 252)solid;
 }
 
-li {
-  display: inline;
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.list > li {
+  background-color: aqua;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 20% 0;
+  margin: 10px 0;
 }
 /*************** END NAV ***********/
 
 /*************** MAIN ***************/
+
+main {
+  background-color: rgb(135, 136, 136);
+  width: 60%;
+  margin: auto;
+}
+
+.aqua {
+}
 
 /*************** END MAIN ***************/
 
@@ -271,7 +299,7 @@ li {
 
 /*************** MEDIAQUERY ***************/
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
   header {
     background-color: #e68f15;
   }
@@ -293,6 +321,6 @@ li {
   header h2 {
     font-family: "Roboto-Black";
   }
-}
+} */
 
 /*************** END MEDIAQUERY ***************/
