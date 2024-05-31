@@ -1,6 +1,6 @@
-<?php include __DIR__ . "/public/header.html.php" ?>
+<?php include __DIR__ . "/public/header.html.php"; ?>
 
-<h2>Position</h2>
+<main></main>
 
-<p>Centrer un element de type block</p>
 
+<?php include __DIR__ . "/public/footer.html.php"; ?>    

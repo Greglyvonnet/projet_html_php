@@ -12,20 +12,27 @@
 
 <link rel="stylesheet" href="public/assets/css/style.css">
 
-    <title>Document</title>
+    <title>Mon premier site</title>
 </head>
 
 <header>
     <div id="logo">
         <img src= "public/assets/img/logo.png" alt="logo_html_css">
     </div>
+
     <div>
         <h1>Mon premier sites HTML/CSS</h1>
     </div>
+
+    <div class= "bord"></div>
+    
     <div id= "social">
-        <i class="fa-brands fa-instagram fa-2xl"></i>
+       
+        <i class="fa-brands fa-instagram fa-lg"></i>
+       
         <br><br>
-        <i class="fa-brands fa-square-facebook fa-2xl"></i>
+       
+      <i class="fa-brands fa-facebook fa-lg"></i>
     </div>
 
     <!-- div 30% pour logo de gauche et de meme pour logos de droite + hauteur 150px-->
