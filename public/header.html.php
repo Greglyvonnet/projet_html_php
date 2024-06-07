@@ -38,4 +38,5 @@
     <!-- div 30% pour logo de gauche et de meme pour logos de droite + hauteur 150px-->
 
 </header>
+
 <?php include __DIR__ . "/nav.html.php"; ?>
