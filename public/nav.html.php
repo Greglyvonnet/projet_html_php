@@ -4,7 +4,7 @@
 <ul class= "list">
         <li><a href="index.php">Structure</a></li>
         <li><a href="texte.php">Texte</a></li>
-        <li><a href="selecteur.php">Selecteur</a></li>
+        <li><a href="selecteurs.php">Selecteur</a></li>
         <li><a href="image.php">Image</a></li>
         <li><a href="position.php">Position</a></li>
         <li><a href="zoning.php">Zoning</a></li>
