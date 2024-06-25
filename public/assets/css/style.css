@@ -226,7 +226,7 @@ header {
   height: 200px;
   align-items: center;
   border-top: 35px black solid;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   font-size: x-large;
 }
 
@@ -268,14 +268,11 @@ nav {
 
 a {
   text-decoration: none;
-    color: white;
+  color: white;
 }
-li:hover{
-background-color: rgb(44, 62, 80);
-
+li:hover {
+  background-color: rgb(44, 62, 80);
 }
-
-
 
 /*************** END NAV ***********/
 
@@ -283,43 +280,453 @@ background-color: rgb(44, 62, 80);
 
 /* taille 1000 et 300 */
 
+/* ************************STRUCTURE */
+
 main {
   background-color: rgb(224, 222, 224);
-  /* background-color: rgb(166, 214, 195); */
   height: 500px;
   width: 1000px;
   margin: auto;
 }
 
 .fond {
-    background-color: rgb(166, 214, 195);
-  /* background-color: gray; */
+  background-color: rgb(166, 214, 195);
   width: 100%;
   height: 380px;
- 
 }
 
+/* *************************PAGE TEXTE */
 
-.section1{
-  margin-top: 180px;
+.titre-t > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
 }
 
-.section1 > h3{
+.section1 {
+  margin-top: 150px;
+  padding-left: 10px;
+}
+
+.section1 > h3 {
   margin-bottom: 20px;
+  padding-left: 30px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 1px grey;
+  font-weight: 400;
 }
 
-.section2{
- margin-top: 110px;
+.section1 > p > i {
+  font-size: larger;
 }
 
-.section2 > h3{
- margin-bottom: 20px;
+.section2 {
+  margin-top: 100px;
+  padding-left: 10px;
+}
+
+.section2 > h3 {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 1px grey;
+  font-weight: 400;
+}
+
+/****************************PAGE SELECTEURS */
+
+.titre-s > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+}
+
+.selecteurs > h3 {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+  font-weight: 400;
+}
+
+.selecteurs > p:first-of-type {
+  color: pink;
+}
+
+.selecteurs > p:nth-of-type(2) {
+  color: red;
+}
+
+.selecteurs > p:nth-of-type(3) {
+  color: red;
+}
+
+.selecteurs > p:nth-of-type(4) {
+  color: red;
+}
+
+.selecteurs > p:nth-of-type(7) {
+  color: red;
+}
+
+.selecteurs > p:nth-of-type(8) {
+  color: red;
+}
+
+.selecteurs > p:nth-of-type(9) {
+  color: red;
+}
+
+.selecteurs > p:nth-of-type(10) {
+  color: pink;
+}
+
+.selecteurs > p:nth-of-type(11) {
+  color: red;
+}
+
+.selecteurs > p:nth-of-type(12) {
+  color: rgb(153, 102, 100);
+}
+
+.selecteurs > p:nth-of-type(12) > span {
+  color: rgb(39, 13, 232);
+}
+
+.selecteurs > p:nth-of-type(13) {
+  color: rgb(152, 243, 47);
+}
+
+.selecteurs > p:nth-of-type(14) > span {
+  font-size: x-large;
+  font-style: italic;
+  color: rgb(152, 243, 47);
+}
+
+/****************************PAGE IMAGES */
+
+.titre-i > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
 }
 
 
-.selecteurs > p{
+section > .titre-i {
+  background-image: url(../img/fond.jpg);
+width: 100%;
+height: 651px;
+}
+
+
+
+.tour  {
+  background-color: blue;
+}
+
+.paragraphe > p {
+margin: 50px;
+padding: 5px;
+border: 1px black solid;
+position: relative;
+bottom: 500px;
+background-color: rgb(230, 238, 246);
+opacity: 0.5;
+border-radius: 10px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************PAGE POSITION */
+
+.titre-position > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************PAGE ZONING */
+
+.titre-zoning > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************PAGE TABLEAU */
+
+.titre-table > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************PAGE LISTE */
+
+.titre-liste > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************PAGE LIEN & MENU */
+
+.lien_menu > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************PAGE FORMULAIRE */
+
+.titre-formul > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************PAGE MULTIMEDIA */
+
+.titre-multimedia > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************PAGE ANIMATION */
+
+
+.titre-anim > h2 {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 20px;
+  color: (44, 62, 125);
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*************** END MAIN ***************/
 
