@@ -6,14 +6,19 @@
 
 <main>
 
+<div class="titre-formul"><h2>Formulaire</h2></div>
+
+
     <div id="identité"></div>
         <form action="questionnaire"></form>
 
-        <label for="pdeudo">Pseudo</label>
-        <input type="text" id="pseudo"><br><br>
+            <label for="pdeudo">Pseudo</label>
+            <input type="text" id="pseudo"><br><br>
 
-        <label for="prénom">Prénom</label>
-        <input type="text" id="prenom"><br><br>
+            <label for="prénom">Prénom</label>
+            <input type="text" id="prenom"><br><br>
+
+            <label for="">
         
 
         <!-- <label for="pass">Mot de passe</label> --> 
